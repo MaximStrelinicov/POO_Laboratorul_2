@@ -8,6 +8,7 @@ public class Song {
     }
 
     public String getSongCompositor() {
+
         return compositor;
     }
 
@@ -16,18 +17,20 @@ public class Song {
     }
 
     public void setSongCompositor(String compositor) {
+
         this.compositor = compositor;
     }
 
     public void setSongTitle(String title) {
+
         this.title = title;
     }
 
     @Override
     public String toString() {
         return "Song{" +
-                "title='" + title + '\'' +
-                ", compositor='" + compositor + '\'' +
+                "title='" + this.getSongTitle() + '\'' +
+                ", compositor='" + this.getSongCompositor() + '\'' +
                 '}';
     }
 }

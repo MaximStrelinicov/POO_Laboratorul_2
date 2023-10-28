@@ -9,26 +9,30 @@ public class Notebook {
     }
 
     public String getNotebookBrand() {
+
         return brand;
     }
 
     public void setNotebookBrand(String brand) {
+
         this.brand = brand;
     }
 
     public String getNotebookModel() {
+
         return model;
     }
 
     public void setNotebookModel(String model) {
+
         this.model = model;
     }
 
     @Override
     public String toString() {
         return "Notebook{" +
-                "brand='" + brand + '\'' +
-                ", model='" + model + '\'' +
+                "brand='" + this.getNotebookBrand() + '\'' +
+                ", model='" + this.getNotebookModel() + '\'' +
                 '}';
     }
 }

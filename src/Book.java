@@ -9,18 +9,22 @@ class Book {
     }
 
     public String getBookTitle() {
+
         return title;
     }
 
     public String getBookWriter() {
+
         return writer;
     }
 
     public void setBookTitle(String title) {
+
         this.title = title;
     }
 
     public void setBookWriter(String writer) {
+
         this.writer = writer;
     }
 
@@ -28,8 +32,8 @@ class Book {
     @Override
     public String toString() {
         return "Book{" +
-                "title='" + title + '\'' +
-                ", writer='" + writer + '\'' +
+                "title='" + this.getBookTitle() + '\'' +
+                ", writer='" + this.getBookWriter() + '\'' +
                 '}';
     }
 }
