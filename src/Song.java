@@ -8,21 +8,18 @@ public class Song {
     }
 
     public String getSongCompositor() {
-
-        return compositor;
+        return this.compositor;
     }
 
     public String getSongTitle() {
-        return title;
+        return this.title;
     }
 
     public void setSongCompositor(String compositor) {
-
         this.compositor = compositor;
     }
 
     public void setSongTitle(String title) {
-
         this.title = title;
     }
 

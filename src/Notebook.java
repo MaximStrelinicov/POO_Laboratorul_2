@@ -9,22 +9,19 @@ public class Notebook {
     }
 
     public String getNotebookBrand() {
-
-        return brand;
+        return this.brand;
     }
 
     public void setNotebookBrand(String brand) {
-
         this.brand = brand;
     }
 
     public String getNotebookModel() {
 
-        return model;
+        return this.model;
     }
 
     public void setNotebookModel(String model) {
-
         this.model = model;
     }
 

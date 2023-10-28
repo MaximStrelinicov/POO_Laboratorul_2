@@ -10,12 +10,12 @@ class Book {
 
     public String getBookTitle() {
 
-        return title;
+        return this.title;
     }
 
     public String getBookWriter() {
 
-        return writer;
+        return this.writer;
     }
 
     public void setBookTitle(String title) {
